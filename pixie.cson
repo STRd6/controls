@@ -1,0 +1,4 @@
+dependencies:
+  "touch-canvas": "distri/touch-canvas:master"
+  matrix: "distri/matrix:master"
+  point: "distri/point:master"
