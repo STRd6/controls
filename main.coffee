@@ -25,7 +25,7 @@ canvas.on "touch", (p) ->
 canvas.on "move", (p) ->
   delta = Point(p).subtract(start)
 
-  value = initial + 2 * (delta.x - delta.y)
+  value = initial + (delta.x - delta.y)
 
   value = Math.min(Math.max(value, 0), 1)
 
